@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+/* Center Table */
+
+table {
+  margin: 0px auto 0px auto;
+}
+/* sets all td width and height  */
+td {
+  width: 100px;
+  height: 100px;
+}
+/* vertical class */
+
+.vertical {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+/* gives top and bottom border */
+.horizontal {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+/* bottom class */
+
+tr:nth-of-type(3) td:nth-of-type(1) {
+  width: 100px;
+  height: 100px;
+  border-top: 2px solid blue;
+}
+
+tr:nth-of-type(3) td:nth-of-type(2) {
+  width: 100px;
+  height: 100px;
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+}
+
+tr:nth-of-type(3) td:nth-of-type(3) {
+  width: 100px;
+  height: 100px;
+  border-top: 2px solid blue;
+}
